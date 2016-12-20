@@ -1,3 +1,4 @@
+import javax.swing.JButton;
 import javax.swing.JFrame;
 
 public class index {
@@ -17,9 +18,16 @@ public class index {
 		j.setLayout(null);
 		
 		mkFunc();
-
+		
+		
+		j.add(setButton("txt changed"));
 	}
 	static void mkFunc(){
 		
+	}
+	static JButton setButton(String str){
+		JButton button1 = new JButton(str);
+		
+		return button1;
 	}
 }
