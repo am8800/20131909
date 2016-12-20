@@ -1,4 +1,5 @@
 import javax.swing.JFrame;
+import javax.swing.JTextArea;
 
 public class index {
 
@@ -20,6 +21,6 @@ public class index {
 
 	}
 	static void mkFunc(){
-		
+		JTextArea Area = new JTextArea("¾È³ç");
 	}
 }
