@@ -5,6 +5,7 @@ public class index {
 		// TODO Auto-generated method stub
 		System.out.println("Hello Git");
 		int i;
+		i=20;
 		System.out.println("Hello java");
 		 
 	}
