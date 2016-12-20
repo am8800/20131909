@@ -11,8 +11,9 @@ public class index {
 		 
 		JFrame j = new JFrame();
 		j.setVisible(true);
-		j.setSize(50, 50);
-
+		j.setSize(50, 100);
+		j.setLayout(null);
+		
 	}
 
 }
