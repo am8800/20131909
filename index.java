@@ -11,9 +11,11 @@ public class index {
 		 
 		JFrame j = new JFrame();
 		j.setVisible(true);
-		j.setSize(50, 50);
-
+		j.setSize(50, 100);
+		
 		System.out.println("레이아웃 추가전");
+		j.setLayout(null);
+
 	}
 
 }
