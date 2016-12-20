@@ -13,6 +13,7 @@ public class index {
 		j.setVisible(true);
 		j.setSize(50, 50);
 
+		System.out.println("레이아웃 추가전");
 	}
 
 }
