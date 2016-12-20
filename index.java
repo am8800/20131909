@@ -1,3 +1,4 @@
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JTextArea;
 
@@ -18,9 +19,16 @@ public class index {
 		j.setLayout(null);
 		
 		mkFunc();
-
+		
+		
+		j.add(setButton("txt changed"));
 	}
 	static void mkFunc(){
 		JTextArea Area = new JTextArea("¾È³ç");
+	}
+	static JButton setButton(String str){
+		JButton button1 = new JButton(str);
+		
+		return button1;
 	}
 }
