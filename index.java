@@ -15,7 +15,11 @@ public class index {
 		
 		System.out.println("레이아웃 추가전");
 		j.setLayout(null);
+		
+		mkFunc();
 
 	}
-
+	static void mkFunc(){
+		
+	}
 }
