@@ -19,6 +19,7 @@ public class index {
 		mkFunc();
 		j.add(setButton("txt changed"));
 		j.setVisible(true);
+		j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 	static void mkFunc(){
 		JTextArea Area = new JTextArea("¾È³ç");
